@@ -1,0 +1,78 @@
+.App {
+  height: 100vh;
+  background-image: linear-gradient(to right, blue, red);
+}
+
+.App.sunny {
+  background-image: linear-gradient(to right, white, orange);
+}
+
+.App.cloudy {
+  background-image: linear-gradient(to right, white, rgb(95, 95, 95));
+}
+
+.App.rainy {
+  background-image: linear-gradient(to right, white, rgb(55, 65, 181));
+}
+
+.App.thunder {
+  background-image: linear-gradient(to right, white, rgb(212, 221, 41));
+}
+
+.App.snowy {
+  background-image: linear-gradient(to right, white, rgb(77, 209, 227));
+}
+
+h1{
+  margin: 0;
+}
+
+h1.message{
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  color: black;
+  font-size: 5rem;
+}
+
+.days-container{
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+.today-icon{
+  position: fixed;
+  right: -5%;
+  top: -5%;
+}
+
+.today-icon svg{
+  font-size: 20rem;
+  color: white;
+}
+
+.today-name{
+  position: fixed;
+  right: 50px;
+  bottom: 25%;
+  color: white;
+  font-size: 10rem;
+}
+
+.today-values{
+  position: fixed;
+  left: 50px;
+  bottom: 25%;
+  color: black;
+  font-size: 10rem;
+  width: 300px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
